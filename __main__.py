@@ -1,6 +1,8 @@
-import os
-import random
+#git status
 
+import os 
+import random
+import time
 from game.casting.actor import Actor
 from game.casting.artifact import Artifact
 from game.casting.cast import Cast
@@ -12,6 +14,7 @@ from game.services.video_service import VideoService
 
 from game.shared.color import Color
 from game.shared.point import Point
+
 
 FRAME_RATE = 12
 MAX_X = 900
